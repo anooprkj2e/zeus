@@ -15,7 +15,7 @@
         "content": "3. You need to give a name for you environment which will be used to create the URL for accessing the environemtn you are going to create. For eg: if you name it 'mcom-160', the environment can be accessed using the URL 'https://www.mcom-160.tbe.zeus.fds.com' when it is ready for use."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/create_env.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/create_env.gif"
       }
     ]
   },
@@ -30,7 +30,7 @@
         "content": "You enviorment will be provisioned with the custom artifact(s) for the component you choose and all other components will be default artifacts."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/custom_artifact.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/custom_artifact.gif"
       }
     ]
   },
@@ -41,7 +41,7 @@
         "content": "Navigate to URL :  https://zeus.fds.com/ui/"
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/login.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/login.gif"
       }
     ]
   },
@@ -56,7 +56,7 @@
         "content": "From the dropdown list of version available, choose the one you want to use & click Save. Give the environment a name and submit the request to create the environment."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/speci_reles_artif.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/speci_reles_artif.gif"
       }
     ]
   },
@@ -74,7 +74,7 @@
         "content": "For unlocking, Click on the unlock button on top right of the environment details page."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/lock_unlock.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/lock_unlock.gif"
       }
     ]
   },
@@ -86,7 +86,7 @@
         "content": "Select the environment you created that you want to lock. Click on the delete button on top right of the environment details page."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/delete_env.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/delete_env.gif"
       }
     ]
   },
@@ -101,7 +101,7 @@
         "content": "Change the Expiry Date a future date & click Extend."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/extend_life.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/extend_life.gif"
       }
     ]
   },
@@ -116,7 +116,7 @@
         "content": "Type in the Key & value for each property you want to override. Click save & submit the request to create the environment."
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/custom_property.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/custom_property.gif"
       }
     ]
   },
@@ -131,7 +131,7 @@
         "content": "You may pasted key value pairs comma separated, Save it & proceed with environment creation." 
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/custom_property_bulk.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/custom_property_bulk.gif"
       }
     ]
   },
@@ -146,7 +146,7 @@
         "content": "To connnect via terminal, ....." 
       },
       {
-        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/blob/master/plain_vm.gif"
+        "content": "https://raw.githubusercontent.com/anooprkj2e/zeus/master/plain_vm.gif"
       }
     ]
   }
