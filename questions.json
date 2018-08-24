@@ -1,0 +1,153 @@
+[
+  {
+    "question": "How to create an environment ?",
+    "answerItems": [
+      {
+        "content": "There are 3 things you should know to before creating an environment."
+      },
+      {
+        "content": "1. The type(blueprint) of the environmet say BCOM site. This deploys the stack of applications that are required for an ECOM site for Bloomingdales."
+      },
+      {
+        "content": "2. The type of scaling you want for the environment called as topology. If you are using for testing ecom features for your project, you need a TBE(Topic Branch Env). If you are created a scaled envorment for PERF testing you should select the minimal_perf topology or other topologies based on your needs."
+      },
+      {
+        "content": "3. You need to give a name for you environment which will be used to create the URL for accessing the environemtn you are going to create. For eg: if you name it 'mcom-160', the environment can be accessed using the URL 'https://www.mcom-160.tbe.zeus.fds.com' when it is ready for use."
+      },
+      {
+        "content": "./assets/gifs/create_env.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to use your own artifact to create an environemnt ?",
+    "alternateQuestionKeywords": "reconfigure custom customize personal zip jar archive",
+    "answerItems": [
+      {
+        "content": "Navigate to https://zeus.fds.com/ui/manage. Click create environment. Select the blueprint you want to use. In the components list, click on the reconfigure spanner icon to configure the component. Selecting Custom Artifcat, displays the option 'Upload custom artifact'. Upload the custom artifact file, Save and complete creating the environment."
+      },
+      {
+        "content": "You enviorment will be provisioned with the custom artifact(s) for the component you choose and all other components will be default artifacts."
+      },
+      {
+        "content": "./assets/gifs/custom_artifact.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to login to Zeus ?",
+    "answerItems": [
+      {
+        "content": "Navigate to URL :  https://zeus.fds.com/ui/"
+      },
+      {
+        "content": "./assets/gifs/login.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to select a specific version of an artifiact from available in artifactory instead of latest certified artifact which is the default ?",
+    "alternateQuestionKeywords": "custom artifact reconfigure specific release choose",
+    "answerItems": [
+      {
+        "content": "After selecting the blueprint you are planning to use, select the reconfigure option of the component you want to select a specific version of"
+      },
+      {
+        "content": "From the dropdown list of version available, choose the one you want to use & click Save. Give the environment a name and submit the request to create the environment."
+      },
+      {
+        "content": "./assets/gifs/speci_reles_artif.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to lock an evironment to keep it untouched by anyone else and unlock it later to prevent anyone modifying or deleting it?",
+    "alternateQuestionKeywords": "private secret untouched shield protect change",
+    "answerItems": [
+      {
+        "content": "Select the environment you created that you want to lock. Click on the lock button on top right of the environment details page."
+      },
+      {
+        "content": "Give a message which everyone will be shown while lookkng for the envorment details."
+      },
+      {
+        "content": "For unlocking, Click on the unlock button on top right of the environment details page."
+      },
+      {
+        "content": "./assets/gifs/lock_unlock.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to delete an evironment when you are done with it ?",
+    "alternateQuestionKeywords": "purge recycle rid trash dump",
+    "answerItems": [
+      {
+        "content": "Select the environment you created that you want to lock. Click on the delete button on top right of the environment details page."
+      },
+      {
+        "content": "./assets/gifs/delete_env.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to extend the life of an environment ?",
+    "alternateQuestionKeywords": "increase expiry date renew",
+    "answerItems": [
+      {
+        "content": "Select the environment you which you want extend it's life. Click on the Calendar button on top right of the environment details page."
+      },
+      {
+        "content": "Change the Expiry Date a future date & click Extend."
+      },
+      {
+        "content": "./assets/gifs/extend_life.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to change a property of an application before deployment ?",
+    "alternateQuestionKeywords": "custom property reconfigure",
+    "answerItems": [
+      {
+        "content": "After selecting the blueprint you are planning to use, scroll down to '<Component Name> property overrides' select key value edit for overriding properties."
+      },
+      {
+        "content": "Type in the Key & value for each property you want to override. Click save & submit the request to create the environment."
+      },
+      {
+        "content": "./assets/gifs/custom_property.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to change multiple properties of an application before deployment ?",
+    "alternateQuestionKeywords": "custom property reconfigure bulk all",
+    "answerItems": [
+      {
+        "content": "After selecting the blueprint you are planning to use, scroll down to '<Component Name> property overrides' select Bulk Edit for overriding properties in bulk."
+      },
+      {
+        "content": "You may pasted key value pairs comma separated, Save it & proceed with environment creation." 
+      },
+      {
+        "content": "./assets/gifs/custom_property_bulk.gif"
+      }
+    ]
+  },
+  {
+    "question": "How to create a plain VM ?",
+    "alternateQuestionKeywords": "provision vanilla virtual machine play personal",
+    "answerItems": [
+      {
+        "content": "Selecting the blueprint 'vm_plain' and create and environment."
+      },
+      {
+        "content": "To connnect via terminal, ....." 
+      },
+      {
+        "content": "./assets/gifs/plain_vm.gif"
+      }
+    ]
+  }
+]
